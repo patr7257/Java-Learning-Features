@@ -1,34 +1,32 @@
 package Animals;
 
+/** Concrete Horse implementation. */
 public class Horse extends Animal {
-    
 
-    //____________________ CONSTRUCTOR _________________________//
-    public Horse () {
+    // ------------------- CONSTRUCTOR --------------------
+    public Horse() { }   // nothing special to initialise
 
-    }
+    // ------------- OVERRIDING INTERFACE DEFAULTS --------
 
-
-
-    
-    //___________________________ OVERRIDING INTERFACE FUNCTIONS _____________________________//
+    /** Adds a feline flavour to the generic poop sentence. */
     @Override
-    public void poop() {
-        super.poop();
-        System.out.println("HorseSHIT!");
-    }
-    
-    @Override
-    public void printAge() {
-        super.printAge();
-        System.out.println("...but really I am 11 in Horse years.");
+    public String poop() {
+        // super.poop() → "Im an animal so I can Poop!"
+        return super.poop() + "\nHorseSHIT!";
     }
 
-
-    //___________________________ OVERRIDING ABSTRACT FUNCTIONS _____________________________//
+    /** Tweaks the generic age sentence with an extra Horse note. */
     @Override
-    public void makeNoise() {
-        System.out.println("Pruuuhh!");
+    public String ageSentence(int age, String kind) {
+        // "... but really I am X in Horse years." (+ a fun fact)
+        return super.ageSentence(age, kind.toLowerCase())
+                + " (≈ " + (age * 8) + " human years)";
     }
-    
+
+    // ------------- OVERRIDING ABSTRACT METHOD -----------
+
+    @Override
+    public String makeNoise() {
+        return "Pruuuust!";
+    }
 }

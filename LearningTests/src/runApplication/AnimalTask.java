@@ -26,14 +26,15 @@ public class AnimalTask implements Runnable {
             a.setName(namePool[rnd.nextInt(namePool.length)].value());
             a.setAge (agePool [rnd.nextInt(agePool.length)].value());
 
-            // ----- pretty output -----
-            System.out.printf("[%s]%n", Thread.currentThread().getName());
-            a.makeNoise();
-            a.poop();
-            a.printName();
-            a.printAge();
-            System.out.println("----------------------------");
+            StringBuilder sb = new StringBuilder();
+            sb.append('[').append(Thread.currentThread().getName()).append(']').append('\n');
+            sb.append(a.makeNoise()).append('\n');
+            sb.append("I am a ").append(type.name()).append('\n');
+            sb.append(a.poop()).append('\n');
+            sb.append("My name is ").append(a.getName()).append('\n');
+            sb.append(a.ageSentence(a.getAge(), type.name())).append('\n');
+            sb.append("----------------------------\n");
+            System.out.print(sb);
         }
-}
-
+    }
 }

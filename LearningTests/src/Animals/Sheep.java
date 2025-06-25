@@ -1,34 +1,32 @@
 package Animals;
 
+/** Concrete Sheep implementation. */
 public class Sheep extends Animal {
-    
 
-    //____________________ CONSTRUCTOR _________________________//
-    public Sheep () {
+    // ------------------- CONSTRUCTOR --------------------
+    public Sheep() { }   // nothing special to initialise
 
-    }
+    // ------------- OVERRIDING INTERFACE DEFAULTS --------
 
-
-
-    
-    //___________________________ OVERRIDING INTERFACE FUNCTIONS _____________________________//
+    /** Adds a feline flavour to the generic poop sentence. */
     @Override
-    public void poop() {
-        super.poop();
-        System.out.println("SheepShit");
-    }
-    
-    @Override
-    public void printAge() {
-        super.printAge();
-        System.out.println("... but really I am 6 in Sheep years.");
+    public String poop() {
+        // super.poop() → "Im an animal so I can Poop!"
+        return super.poop() + "\nSheepPooP!";
     }
 
-
-    //___________________________ OVERRIDING ABSTRACT FUNCTIONS _____________________________//
+    /** Tweaks the generic age sentence with an extra Sheep note. */
     @Override
-    public void makeNoise() {
-        System.out.println("BAAAAHh!");
+    public String ageSentence(int age, String kind) {
+        // "... but really I am X in Sheep years." (+ a fun fact)
+        return super.ageSentence(age, kind.toLowerCase())
+                + " (≈ " + (age * 4) + " human years)";
     }
-    
+
+    // ------------- OVERRIDING ABSTRACT METHOD -----------
+
+    @Override
+    public String makeNoise() {
+        return "BAAAAAAHHH!";
+    }
 }

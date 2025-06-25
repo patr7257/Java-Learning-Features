@@ -5,11 +5,7 @@ public abstract class Animal implements animalStuff {
     private int age;
     private String name;
 
-    public void printName() {
-        System.out.println("My name is " + name);
-    }
-    
-    public abstract void makeNoise();
+    public abstract String makeNoise();
 
 
     //______________________GETTERS AND SETTERS___________________//

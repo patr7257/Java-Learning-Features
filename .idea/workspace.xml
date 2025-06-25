@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffa35f12-90a2-4dd7-aa2f-7ddbbe299a14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animals/Animals.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animals/src/Animals/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animals/src/Enums/Animals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animals/src/Enums/ages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animals/src/Enums/names.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animals/src/runApplication/startApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Animals/src/Animals/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Animals/src/Animals/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animalStuff.java" beforeDir="false" afterPath="$PROJECT_DIR$/Animals/src/Interfaces/animalStuff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiThreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/Animals/src/Interfaces/multiThreading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Learning-Features.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Learning-Features.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningTests/src/Animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearningTests/src/Animals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningTests/src/Animals/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearningTests/src/Animals/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningTests/src/Animals/Cow.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearningTests/src/Animals/Cow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningTests/src/Animals/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearningTests/src/Animals/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningTests/src/Animals/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearningTests/src/Animals/Horse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningTests/src/Animals/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearningTests/src/Animals/Sheep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningTests/src/Interfaces/animalStuff.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearningTests/src/Interfaces/animalStuff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningTests/src/runApplication/AnimalTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearningTests/src/runApplication/AnimalTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,62 +58,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.runStartApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Java-Learning-Features" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Java-Learning-Features" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="Java-Learning-Features" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="Java-Learning-Features" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

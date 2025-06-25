@@ -1,34 +1,32 @@
 package Animals;
 
+/** Concrete Dog implementation. */
 public class Dog extends Animal {
-    
 
-    //____________________ CONSTRUCTOR _________________________//
-    public Dog () {
+    // ------------------- CONSTRUCTOR --------------------
+    public Dog() { }   // nothing special to initialise
 
-    }
+    // ------------- OVERRIDING INTERFACE DEFAULTS --------
 
-
-
-    
-    //___________________________ OVERRIDING INTERFACE FUNCTIONS _____________________________//
+    /** Adds a feline flavour to the generic poop sentence. */
     @Override
-    public void poop() {
-        super.poop();
-        System.out.println("dogShit");
-    }
-    
-    @Override
-    public void printAge() {
-        super.printAge();
-        System.out.println("... but really I am 3 in Dog years.");
+    public String poop() {
+        // super.poop() → "Im an animal so I can Poop!"
+        return super.poop() + "\nDogSHIT!";
     }
 
-
-    //___________________________ OVERRIDING ABSTRACT FUNCTIONS _____________________________//
+    /** Tweaks the generic age sentence with an extra Dog note. */
     @Override
-    public void makeNoise() {
-        System.out.println("WOOF!");
+    public String ageSentence(int age, String kind) {
+        // "... but really I am X in Dog years." (+ a fun fact)
+        return super.ageSentence(age, kind.toLowerCase())
+                + " (≈ " + (age * 5) + " human years)";
     }
-    
+
+    // ------------- OVERRIDING ABSTRACT METHOD -----------
+
+    @Override
+    public String makeNoise() {
+        return "WOOF!";
+    }
 }
