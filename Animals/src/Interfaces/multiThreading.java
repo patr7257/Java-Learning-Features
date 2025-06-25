@@ -1,4 +1,4 @@
-package JavaLearningFeatures;
+package Interfaces;
 
 public interface multiThreading {
 

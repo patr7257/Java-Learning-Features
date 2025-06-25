@@ -4,11 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffa35f12-90a2-4dd7-aa2f-7ddbbe299a14" name="Changes" comment="" />
+    <list default="true" id="ffa35f12-90a2-4dd7-aa2f-7ddbbe299a14" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Animals/Animals.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Animals/src/Animals/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Animals/src/Enums/Animals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Animals/src/Enums/ages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Animals/src/Enums/names.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Animals/src/runApplication/startApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Animals/src/Animals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Animals/src/Animals/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animalStuff.java" beforeDir="false" afterPath="$PROJECT_DIR$/Animals/src/Interfaces/animalStuff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiThreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/Animals/src/Interfaces/multiThreading.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,13 +58,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Java-Learning-Features" />
